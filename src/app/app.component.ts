@@ -10,4 +10,3 @@ export class AppComponent {
   // @Input() header: string = 'This is the Header';
   // @Input() footer: string = 'This is the Footer';
 }
-

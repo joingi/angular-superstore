@@ -13,6 +13,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
+import { ContactFormComponent } from './contact/contact-form/contact-form.component';
+
+
 
 
 @NgModule({
@@ -24,7 +27,8 @@ import { StarRatingComponent } from './star-rating/star-rating.component';
     AboutUsComponent,
     ContactComponent,
     NotFoundComponent,
-    StarRatingComponent
+    StarRatingComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
@@ -36,3 +40,4 @@ import { StarRatingComponent } from './star-rating/star-rating.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

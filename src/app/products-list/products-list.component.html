@@ -1,10 +1,10 @@
 <section class="app-products-list">
   <div *ngFor ="let product of products" class="product" [class.featured]="product.isfeatured">
     <img [src]='product.image' />
-    <app-star-rating [rating]="product.rating" (ratingClicked)="onRatingClicked($event)"></app-star-rating>
+    <app-star-rating [rating]="starrating" (ratingClicked)="onRatingClicked($event)"></app-star-rating>
     <h1>{{ product.name | uppercase }}</h1>
     <h2>{{ product.category | uppercase }}</h2>
     <p>{{ product.description }}</p>  
-    <a [routerLink]="['/product', product.id]">VIEW</a>
+    <a [routerLink]="['/product', product.id]">Buy Now</a>
   </div>
 </section>
