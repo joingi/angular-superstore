@@ -1,0 +1,11 @@
+header {
+    width: 500px;
+    height: 200px;
+    background: hotpink;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0 0 8px;
+}
